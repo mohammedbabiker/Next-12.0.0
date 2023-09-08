@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { SliderData } from "./SliderData";
+import { Data } from "./Data";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 const Slider = ({ slides }) => {
@@ -22,7 +22,7 @@ const Slider = ({ slides }) => {
     <div id="gallery" className="max-w-[1240px] mx-auto">
       <h1 className="text-2xl font-bold text-center p-4">Gallery</h1>
       <div className="relative flex justify-center p-4">
-        {SliderData.map((slide, index) => {
+        {Data.map((slide, index) => {
           return (
             <div
               key={index}
