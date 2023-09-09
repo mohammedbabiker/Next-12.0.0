@@ -1,9 +1,16 @@
 import React from "react";
+import Hero from "./../components/Hero";
+import Contact from "./../components/Contact";
 
 const contact = () => {
   return (
     <div>
-      <div>https://mohammedbabiker.github.io/Next-12.0.0/</div>
+      <Hero
+        heading="Contact"
+        message="Submit the form below for more work and quotes."
+        button="confirm"
+      />
+      <Contact />
     </div>
   );
 };

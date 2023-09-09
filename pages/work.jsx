@@ -8,6 +8,7 @@ const work = () => {
       <Hero
         heading="My Work"
         message="This is some of my recent work traveling the world."
+        button="work"
       />
       <Portfolio />
     </div>

@@ -16,6 +16,7 @@ export default function Home() {
       <Hero
         heading="Capture Photography"
         message="I capture moments in nature and keep them alive."
+        button="Home"
       />
       <Slider slides={Data} />
       <Instagram />
