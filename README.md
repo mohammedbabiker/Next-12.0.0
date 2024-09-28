@@ -15,7 +15,7 @@ yarn dev
 ```bash
 docker build -t your-nextjs12-ssr-app .
 ```
-
+### Run the app
 ```bash
 docker run -dp 3000:80 your-nextjs12-ssr-app
 ```
